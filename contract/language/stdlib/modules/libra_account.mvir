@@ -19,7 +19,7 @@ module LibraAccount {
         // TEMPORARY the current count for the number of received events for this account
         // The events system is being overhauled and this will be replaced
         received_events_count: u64,
-        kyc: bool
+        kyc: bool,
     }
 
     // Message for sent events
